@@ -1,0 +1,162 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.5.3",
+  "pathMappings": {
+    "@uit-go/shared-utils": [
+      "libs/shared-utils/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "sample-app": [
+        {
+          "file": "apps/sample-app/project.json",
+          "hash": "9622418196690395783"
+        },
+        {
+          "file": "apps/sample-app/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/sample-app/src/main.ts",
+          "hash": "9422448737099945090",
+          "deps": [
+            "shared-utils"
+          ]
+        },
+        {
+          "file": "apps/sample-app/tsconfig.app.json",
+          "hash": "663763413802756907"
+        },
+        {
+          "file": "apps/sample-app/tsconfig.json",
+          "hash": "3025378044812449119"
+        }
+      ],
+      "shared-utils": [
+        {
+          "file": "libs/shared-utils/README.md",
+          "hash": "4867776221816429465"
+        },
+        {
+          "file": "libs/shared-utils/eslint.config.mjs",
+          "hash": "4313095032450400554",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/shared-utils/jest.config.ts",
+          "hash": "6121113725815024025"
+        },
+        {
+          "file": "libs/shared-utils/package.json",
+          "hash": "17110971583299921574",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/shared-utils/project.json",
+          "hash": "16514499992843492841"
+        },
+        {
+          "file": "libs/shared-utils/src/index.ts",
+          "hash": "2115022695656941492"
+        },
+        {
+          "file": "libs/shared-utils/src/lib/shared-utils.spec.ts",
+          "hash": "524003507553350883"
+        },
+        {
+          "file": "libs/shared-utils/src/lib/shared-utils.ts",
+          "hash": "1673420792750084338"
+        },
+        {
+          "file": "libs/shared-utils/tsconfig.json",
+          "hash": "12975668481162286788"
+        },
+        {
+          "file": "libs/shared-utils/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/shared-utils/tsconfig.spec.json",
+          "hash": "5394994266788668641"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "3102350400356622808"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "16019599922991132181"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "16115150150962893282"
+      },
+      {
+        "file": "README.md",
+        "hash": "4415906819092389585"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16981599395833402743"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "16566290581336566424"
+      },
+      {
+        "file": "package.json",
+        "hash": "8283809232543589302"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12587923546145012584"
+      }
+    ]
+  },
+  "externalNodesHash": "3507812519503206118"
+}

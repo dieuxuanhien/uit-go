@@ -1,0 +1,17 @@
+
+[0m[7m[1m[33m NX [39m[22m[27m[0m  [33mNx Daemon is not enabled. Assets will not be updated when they are changed.[39m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/668d3e42-edee-4586-abba-ee0ba37ca55b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/668d3e42-edee-4586-abba-ee0ba37ca55b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+🚀 UIT-GO Nx Monorepo Sample App
+Hello, Developer from UIT-GO shared utils!
+Started at: 2025-09-27T01:31:51.196Z
+Nx monorepo is working correctly!
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mWatch error: Daemon closed the connection[39m[22m
