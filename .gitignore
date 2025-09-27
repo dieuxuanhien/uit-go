@@ -4,6 +4,10 @@
 /build
 /tmp
 
+# Nx
+/.nx/cache
+/.nx/workspace-data
+
 # Logs
 logs
 *.log
